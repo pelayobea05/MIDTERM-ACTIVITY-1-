@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Enrollment Form</title>
+</head>
+<body style="background-color: rgb(107, 70, 245);">
+
+<h1 style="color: rgb(182, 79, 250);">College Enrollment Form</h1>
+
+<form action="saveddd.html" method="get">
+    <table style="width: 700px; height: 300px;" cellpadding="8">
+
+        <tr>
+            <td>
+                <label for="first_name">First Name*</label>
+                <input type="text" name="first_name" id="first_name" required style="width: 300px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="middle_name">Middle Name</label>
+                <input type="text" name="middle_name" id="middle_name"style="width: 300px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="last_name">Last Name*</label>
+                <input type="text" name="last_name" id="last_name" required style="width: 300px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="birthday">Birth Date*</label>
+                <input type="date" name="birthday" id="birthday" required style="width: 300px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="birthplace">Birth Place*</label>
+                <input type="text" name="birthplace" id="birthplace" required style="width: 300px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="age">Age*</label>
+                <input type="number" name="age" id="age" min="1" required style="width: 300px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="year_level">Year Level*</label>
+                <select name="year_level" id="year_level" required style="width: 300px;">
+                    <option value="">Select Year Level</option>
+                    <option value="1">1st Year</option>
+                    <option value="2">2nd Year</option>
+                    <option value="3">3rd Year</option>
+                    <option value="4">4th Year</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="course">Course*</label>
+                <select name="course" id="course" required style="width: 300px;">
+                    <option value="">Select Course</option>
+                    <option value="ACT">ACT (Associate in Computer Technology)</option>
+                    <option value="BSOA">BSOA (Business Office Administration)</option>
+                    <option value="ENTREP">ENTREP (Entrepreneurship)</option>
+                    <option value="HM">HM (Hospitality Management)</option>
+                    <option value="CT">CT (Computer Technology)</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="citizenship">Citizenship*</label>
+                <input type="text" name="citizenship" id="citizenship" required style="width: 300px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Sex*</label>
+                <input type="radio" name="sex" id="male" value="male" required>
+                <label for="male">Male</label>
+
+                <input type="radio" name="sex" id="female" value="female">
+                <label for="female">Female</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="civil_status">Civil Status*</label>
+                <select name="civil_status" id="civil_status" required style="width: 300px;">
+                    <option value="">Select Civil Status</option>
+                    <option value="single">Single</option>
+                    <option value="married">Married</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="region">Region*</label>
+                <input type="text" name="region" id="region" required style="width: 300px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="province">Province*</label>
+                <input type="text" name="province" id="province" required style="width: 300px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="city">City*</label>
+                <input type="text" name="city" id="city" required style="width: 300px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="barangay">Barangay*</label>
+                <input type="text" name="barangay" id="barangay" required style="width: 300px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="street">House No./Street*</label>
+                <input type="text" name="street" id="street" required style="width: 300px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="contact">Contact No.*</label>
+                <input type="tel" name="contact" id="contact" required style="width: 300px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Credentials Submitted*</label><br>
+                <input type="checkbox" name="credentials" value="form138"> Form 138<br>
+                <input type="checkbox" name="credentials" value="form137"> Form 137<br>
+                <input type="checkbox" name="credentials" value="birth_cert"> Birth Certificate<br>
+                <input type="checkbox" name="credentials" value="good_moral"> Good Moral Certificate<br>
+                <input type="checkbox" name="credentials" value="transfer"> Certificate of Transfer Credentials<br>
+                <input type="checkbox" name="credentials" value="tor"> Transcript of Records<br>
+                <input type="checkbox" name="credentials" value="permit"> Summer Permit / Cross Enroll Permit<br>
+                <input type="checkbox" name="credentials" value="picture"> Picture<br>
+                <input type="checkbox" name="credentials" value="psa"> PSA / NSO
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="submit" value="Submit" style="background-color: rgb(230, 79, 250); border: 0;">
+                <input type="reset" value="Clear" style="background-color: rgb(230, 79, 250); border: 0;">
+            </td>
+        </tr>
+
+    </table>
+</form>
+
+</body>
+</html>
